@@ -1,23 +1,21 @@
 @media (max-width: 480px) {
     .menu {
         display: flex;
-        grid-template-columns: 1fr auto;
+        padding: 0 3em;
         justify-content: space-between;
     }
 
     .title {
-        grid-column: 1;
-        width: 100vw;
+        width: 70%;
         text-align: justify;
         margin-left: -1.5rem;
-        font-size: 3.5rem;
+        font-size: 3rem;
     }
 
     .menu img {
-        margin: 40px 5px 0 0;
-        width: 120px;
+        margin: 30px 5px 0 0;
+        width: 80px;
         justify-self: end;
-        margin-right: -2rem;
     }
 
     .intro {
