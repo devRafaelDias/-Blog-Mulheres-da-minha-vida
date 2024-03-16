@@ -1,0 +1,56 @@
+@media (max-width: 480px) {
+    .menu {
+        display: flex;
+        grid-template-columns: 1fr auto;
+        justify-content: space-between;
+    }
+
+    .title {
+        grid-column: 1;
+        width: 100vw;
+        text-align: justify;
+        margin-left: -1.5rem;
+        font-size: 3.5rem;
+    }
+
+    .menu img {
+        margin: 40px 5px 0 0;
+        width: 120px;
+        justify-self: end;
+        margin-right: -2rem;
+    }
+
+    .intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro .text {
+        grid-row: 1/2;
+        font-size: 1.6rem;
+    }
+
+    .intro img {
+        width: 50%;
+        z-index: -1;
+    }
+
+    #btnDiv {
+        padding: 1.5rem;
+        z-index: 1;
+        width: 100%;
+        margin-top: -6rem;
+    }
+
+    #btnWrite {
+        width: 100%;
+        padding: 1rem;
+        font-size: 2rem;
+        box-shadow: 2px -2px 20px #6420AA;
+    }
+
+    #btnWrite:active {
+        background-color: blueviolet;
+        border-radius: 1rem;
+    }
+}
