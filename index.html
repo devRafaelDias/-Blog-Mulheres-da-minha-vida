@@ -31,34 +31,7 @@
             <a type="button" id="btnWrite" href="form.html">Escreva sobre a mulher da sua vida</a>
         </div>
         <div class="honor">
-            <div class="backGray">
-                <img src="assets/images/home.png" alt="">
-                <span>
-                    <h3>Título</h3>
-                    <p class="truncated-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum
-                        aut maxime, culpa sint tempora in maiores nihil architecto laudantium! Quidem aut accusamus
-                        itaque atque iste cumque</p>
-                </span>
-            </div>
-            <div class="backGray">
-                <img src="assets/images/home.png" alt="">
-                <span>
-                    <h3>Título</h3>
-                    <p class="truncated-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum
-                        aut maxime, culpa sint tempora in maiores nihil architecto laudantium! Quidem aut accusamus
-                        itaque atque iste cumque</p>
-                </span>
-            </div>
-            <div class="backGray">
-                <img src="assets/images/home.png" alt="">
-                <span>
-                    <h3>Título</h3>
-                    <p class="truncated-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae voluptatum
-                        aut maxime, culpa sint tempora in maiores nihil architecto laudantium! Quidem aut accusamus
-                        itaque atque iste cumque</p>
-                </span>
-            </div>
-            <div class="backGray">
+            <div class="backGray" onclick="openPopup(this)">
                 <img src="assets/images/home.png" alt="">
                 <span>
                     <h3>Título</h3>
@@ -95,7 +68,22 @@
                 </span>
             </div>
         </div>
+        <div id="popup">
+            <button onclick="closePopup()">X</button>
+            <span>
+                <h3>Título</h3>
+                <h4>Nome do autor</h4>
+            </span>
+            <img src="assets/images/home.jpg" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam doloribus, id officiis voluptatem dolores
+                sapiente numquam quas excepturi aspernatur unde sit laudantium quaerat! Labore sequi voluptas sit nihil
+                doloremque commodi!
+                Dolore recusandae obcaecati aliquid quibusdam distinctio animi blanditiis odio totam quas adipisci,
+                dolorum ab ea delectus molestias soluta nesciunt libero id ipsum laudantium beatae quia eius. Labore
+                laborum corporis dolore.</p>
+        </div>
     </main>
 </body>
+<script src="scripts/openHonor.js"></script>
 
 </html>
