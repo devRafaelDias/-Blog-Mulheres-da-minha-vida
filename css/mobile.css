@@ -112,15 +112,17 @@
         grid-template-columns: auto 1fr;
         grid-template-rows: auto;
         position: fixed;
+        overflow-y: auto !important;
         top: 50%;
         left: 50%;
         width: 90vw;
-        height: 70vh;
+        height: 90%;
         transform: translate(-50%, -50%);
-        background-color: white;
+        background-color: #fef7f7;
+        opacity: 1;
         padding: 20px;
         border: 1px solid #ccc;
-        z-index: 1000;
+        z-index: 4;
         gap: 0;
     }
 
